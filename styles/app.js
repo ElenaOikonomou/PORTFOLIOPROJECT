@@ -4,7 +4,10 @@ const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
 
+
 function PageTransitions(){
+    if (!allSections) return;
+
     //Button click active class
     for(let i = 0; i < sectBtn.length; i++) {
        sectBtn[i].addEventListener('click', function(){

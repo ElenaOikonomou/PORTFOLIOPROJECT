@@ -390,6 +390,9 @@ section {
   gap: 2rem;
   margin-top: 3rem;
 }
+.portfolio-item img:hover { 
+  transform: scale(1.05);
+}
 .portfolios .portfolio-item {
   position: relative;
 }
@@ -804,4 +807,10 @@ section {
     margin: 0 auto;
     width: 90%;
   }
+
+
+
+
+
+
 }/*# sourceMappingURL=styles.css.map */
