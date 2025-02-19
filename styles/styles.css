@@ -625,7 +625,8 @@ section {
 /*Independent components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  align-self: center;
+  padding-top: 50px;
 }
 
 .main-btn {
@@ -635,7 +636,7 @@ section {
   position: relative;
   border: 1px solid var(--color-secondary);
   display: flex;
-  align-self: flex-start;
+  align-self: flex-start;  
   display: flex;
   align-items: center;
   overflow: hidden;
