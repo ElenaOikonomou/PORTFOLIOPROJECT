@@ -829,6 +829,11 @@ section {
     width: 90%;
   }
 
+  .email h3 a {
+    word-break: break-word;
+  }
+  
+
   @media screen and (max-width: 768px) {
     .contact-content-con {
         width: 90%;
